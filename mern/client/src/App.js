@@ -15,7 +15,7 @@ const App = () => {
             <Navbar/>
             <div style={{margin: 20}}>
                 <Routes>
-                    <Route exact path="/" element={<RecordList/>}/>
+                    {/*<Route exact path="/" element={<RecordList/>}/>*/}
                     {/*<Route path="/edit/:id" element={<Edit/>}/>*/}
                     {/*<Route path="/create" element={<Create/>}/>*/}
                 </Routes>
